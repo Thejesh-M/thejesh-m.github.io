@@ -125,7 +125,7 @@
 
 body {
   color: #333;
-  font-size: 18px;
+  font-size: 0px;
 }
 
 /* body {
@@ -300,6 +300,7 @@ h3 {
   margin-top: 0;
   padding: 30px 40px;
   text-transform: uppercase;
+  font-size: 2.2rem;
 }
 
 .section {
