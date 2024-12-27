@@ -441,6 +441,9 @@ h3 {
   line-height: 200%;
   list-style-type: disc;
   margin-left: 24px;
+}
+
+ul li {
   margin-bottom: 10px;
 }
 
