@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>Thejesh Mallidi | Data Scientist</title>
+  <title>Thejesh Mallidi | ML Engineer</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2051WK9QFZ"></script>
@@ -265,7 +265,7 @@ and scalable machine learning models.</h5>
                 <b>Domain-Specific Knowledge Graph:</b> Built a knowledge graph with over 2 million entities and 1.4 million relationships to accelerate hypothesis generation in plant science, leveraging NLP techniques such as Named Entity Recognition and Relation Extraction.
               </li>
               <li>
-                <b>LLM-Driven Entity Extraction from Scientific Texts:</b> Achieved 94% entity extraction accuracy by Finetuning state-of-the-art domain specific BERT models for entity extraction, enabling robust identification of relevant biological entities..
+                <b>LLM-Driven Entity Extraction from Scientific Texts:</b> Achieved 94% entity extraction accuracy by Finetuning state-of-the-art domain specific BERT models for entity extraction, enabling robust identification of relevant biological entities.
               </li>
               <li>
                 <b>Custom BERT-Based Relation Extraction:</b> Designed and implemented a custom BERT-based multi-relation extraction model to identify and extract multiple relationships within a single sentence.
@@ -333,6 +333,64 @@ and scalable machine learning models.</h5>
       <div class="container">
         <div class="row">
 
+          <!-- Pre-training GPT Model -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of Pre-training GPT model project" src="/assets/img/gpt.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Pre-training GPT Model<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  This project provides end‑to‑end code for training a GPT‑style language model from scratch (or fine‑tuning an existing checkpoint) on large text corpora. It includes utilities for downloading and preprocessing data, a configurable training pipeline built on PyTorch .
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Re-implemented the full decoder-only Transformer in ~300 lines of model.py and a matching ~300 line training loop—embracing the “small, clean, interpretable” style while adding modern upgrades such as FlashAttention, gradient-checkpointing, and AMP/bfloat16 support for memory-efficient scaling.</li>
+                  <li>Scaled training for multi-GPU: Orchestrated PyTorch DDP for distributed training across nodes, streaming the 38 GB OpenWebText corpus through a custom shard-loader to pre-train a 124 M-parameter GPT model.</li>
+                  <li>Implemented configurable Top-k/Top-p sampling in the generation CLI: Giving users fine-grained control over randomness and diversity when producing sample continuations.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for Personalized Multi‐Agent Nutrition Assistant project" href="https://github.com/Thejesh-M/MyHealthAgent_Multi-Agent-Assistant.git" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Multi Agent Assistant -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of MyHealthAgent analysis project" src="/assets/img/MyHealthAgent.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">MyHealthAgent: Personalized Multi‐Agent Nutrition Assistant<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A GenAI‐powered, multi‐agent nutrition assistant designed to help users log meals, extract medical conditions from lab‐report images, and receive real‐time, personalized dietary guidance.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Engineered a GenAI‐powered nutrition assistant that analyzes user chronic conditions and meal logs to deliver real‐time, personalized dietary recommendations in under 2 seconds.</li>
+                  <li>Formulated condition-to-nutrition pipeline that extracts user medical conditions from lab report images through OCR and a
+LLaMA-based model, then computes 10+ macro- and micro-nutrient thresholds tailored to those conditions.</li>
+                  <li>Designed a Web App that allowed users to chat with a Multi-Agent System for condition-specific food recommendations, dietary
+planning, and food image classification with ~90 % ingredient-recognition accuracy.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for Personalized Multi‐Agent Nutrition Assistant project" href="https://github.com/Thejesh-M/MyHealthAgent_Multi-Agent-Assistant.git" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <!-- Road Surface Analysis -->
           <div class="col s12 m6 l4">
             <div class="card medium">
