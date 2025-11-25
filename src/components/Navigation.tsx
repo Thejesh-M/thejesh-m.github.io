@@ -2,18 +2,18 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const navItems = [
+  { id: "hero", label: "Home" },
+  { id: "skills", label: "Skills" },
+  { id: "experience", label: "Experience" },
+  { id: "projects", label: "Projects" },
+  { id: "education", label: "Education" },
+  { id: "contact", label: "Contact" },
+];
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("hero");
-
-  const navItems = [
-    { id: "hero", label: "Home" },
-    { id: "skills", label: "Skills" },
-    { id: "experience", label: "Experience" },
-    { id: "projects", label: "Projects" },
-    { id: "education", label: "Education" },
-    { id: "contact", label: "Contact" },
-  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -64,11 +64,10 @@ const Navigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`px-4 py-2 rounded-lg transition-all text-sm font-medium ${
-                  activeSection === item.id
+                className={`px-4 py-2 rounded-lg transition-all text-sm font-medium ${activeSection === item.id
                     ? "bg-primary text-primary-foreground"
                     : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                }`}
+                  }`}
               >
                 {item.label}
               </button>
@@ -103,11 +102,10 @@ const Navigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`w-full text-left px-4 py-3 rounded-lg transition-all ${
-                  activeSection === item.id
+                className={`w-full text-left px-4 py-3 rounded-lg transition-all ${activeSection === item.id
                     ? "bg-primary text-primary-foreground font-medium"
                     : "text-muted-foreground hover:bg-muted"
-                }`}
+                  }`}
               >
                 {item.label}
               </button>
