@@ -19,7 +19,7 @@ const Experience = () => {
     {
       company: "Michigan State University",
       role: "Graduate Research Assistant",
-      period: "Jan 2024 – Present",
+      period: "Jan 2024 – Jun 2025",
       location: "East Lansing, MI, USA",
       logo: "assets/img/msu_logo.png",
       achievements: [
