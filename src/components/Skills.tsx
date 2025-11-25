@@ -14,13 +14,12 @@ const Skills = () => {
         "Large Language Models",
         "Generative AI",
         "Agentic AI",
-        "Predictive Modeling",
         "Graph ML",
       ],
     },
     {
       title: "Programming Languages",
-      skills: ["Python", "R", "C++", "C", "Bash"],
+      skills: ["Python", "R", "C++", "C", "Java", "Bash"],
     },
     {
       title: "AI/ML Frameworks",
@@ -41,18 +40,21 @@ const Skills = () => {
     },
     {
       title: "Big Data & Databases",
-      skills: ["Hadoop Spark", "Apache Kafka", "MySQL", "PostgreSQL"],
+      skills: ["Hadoop Spark", "Apache Kafka", "MySQL", "PostgreSQL", "BigQuery", "GCS", "Neo4j", "Redis", "Elasticsearch"],
     },
     {
       title: "Cloud & MLOps",
       skills: [
         "GCP",
         "AWS",
+        "Redhat OpenShift",
+
         "Docker",
         "Git",
         "Flask",
         "FastAPI",
         "MLFlow",
+        "Galileo",
         "Nvidia Deepstream",
       ],
     },
@@ -66,9 +68,9 @@ const Skills = () => {
             <span className="text-gradient">Skills & Expertise</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl">
-            Detail-oriented Machine Learning Engineer with expertise in Natural Language Processing, 
-            Deep Learning, and Computer Vision. I specialize in architecting end-to-end AI solutions 
-            from data pipeline integration to model deployment that deliver measurable impact in 
+            Detail-oriented Machine Learning Engineer with expertise in Natural Language Processing,
+            Deep Learning, and Computer Vision. I specialize in architecting end-to-end AI solutions
+            from data pipeline integration to model deployment that deliver measurable impact in
             real-world applications.
           </p>
         </div>

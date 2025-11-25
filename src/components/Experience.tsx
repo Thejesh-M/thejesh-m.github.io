@@ -10,8 +10,8 @@ const Experience = () => {
       location: "Remote, USA",
       logo: "assets/img/quantiphi_logo.png",
       achievements: [
-        "Engineered an LLM-driven document ingestion pipeline for a leading telecom company processing 2M+ contract documents, extracting unstructured legal text into structured Neo4j graph format while preserving full document hierarchy.",
-        "Implemented Agentic Contract Assist chatbot (GraphRAG) over the Neo4j graph + document store, improving query relevance by ~45% and reducing retrieval latency from seconds to sub-second responses.",
+        "Architected an LLM-powered large document processing pipeline for a Tier-1 telecom, transforming 2M+ complex contracts from unstructured legalese to structured graphical format preserving document hierarchy for superior data integrity.",
+        "Empowered legal teams to surface risks and key contract terms across 2M+ documents and cut review cycles by 60%, through a GraphRAG-powered Agentic Contract Assist chatbot with sub-second retrieval latency and 90%+ answer accuracy.",
         "Developed and deployed CI/CD workflows on Red Hat OpenShift and GCP Cloud Run, enabling zero-downtime updates and Integrated BigQuery and GCS for scalable contract metadata storage.",
         "Created 10+ Re-usable Agentic components those can be used across the organization in various document handling workstreams.",
       ],
@@ -27,7 +27,7 @@ const Experience = () => {
         "Achieved 94% entity extraction accuracy by fine-tuning state-of-the-art domain specific BERT models.",
         "Designed and implemented a custom BERT-based multi-relation extraction model to identify and extract multiple relationships within a single sentence.",
         "Enabled accurate question answering over a knowledge graph using GenAI Agents and Retrieval-Augmented Generation (RAG) techniques.",
-        "Pretrained a BERT model on 400K+ plant science PubMed abstracts with selective masking strategy, achieving significantly lower MLM validation loss compared to baseline BERT.",
+        "Pretrained a BERT model on 1M+ plant science PubMed abstracts with selective masking strategy, achieving significantly lower MLM validation loss compared to baseline BERT.",
       ],
     },
     {
