@@ -73,7 +73,7 @@ const Projects = () => {
       title: "SaveSphere: Anomaly Detection",
       description:
         "Real-time video analysis system that identifies potential threats and sends email alerts for security applications.",
-      image: "assets/img/SaveSphere.png",
+      image: "assets/img/savesphere.png",
       achievements: [
         "Real-time threat detection using object detection",
         "Automated email notification system for alerts",
