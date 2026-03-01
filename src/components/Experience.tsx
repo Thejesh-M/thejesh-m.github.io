@@ -10,10 +10,10 @@ const Experience = () => {
       location: "Remote, USA",
       logo: "assets/img/quantiphi_logo.png",
       achievements: [
-        "Architected an LLM-powered large document processing pipeline for a Tier-1 telecom, transforming 2M+ complex contracts from unstructured legalese to structured graphical format preserving document hierarchy for superior data integrity.",
+        "Developed an LLM-powered large document processing pipeline for a Tier-1 telecom, leveraging self-hosted LLaMA 3.1 70B and Gemini models to transform 2M+ contracts from unstructured legalese into structured queryable Knowledge graph.",
         "Empowered legal teams to surface risks and key contract terms across 2M+ documents and cut review cycles by 60%, through a GraphRAG-powered Agentic Contract Assist chatbot with sub-second retrieval latency and 90%+ answer accuracy.",
-        "Developed and deployed CI/CD workflows on Red Hat OpenShift and GCP Cloud Run, enabling zero-downtime updates and Integrated BigQuery and GCS for scalable contract metadata storage.",
-        "Created 10+ Re-usable Agentic components those can be used across the organization in various document handling workstreams.",
+        "Built a unified agentic support system using Google ADK with Gemini Models and MCP servers, serving 175+ Slack channels through a single Cloud Run deployment that dynamically instantiates context-aware agents per request, reducing developer wait time for SME-driven issue resolution by over 90%.",
+        "Automated deployment with CI/CD across Red Hat OpenShift and GCP Cloud Run to ensure seamless version upgrades and 99.9%+ uptime and integrated metadata storage solutions with ElasticSearch, BigQuery and Google Cloud Storage for fast, reliable contract analytics."
       ],
     },
     {

@@ -9,12 +9,16 @@ const Skills = () => {
         "Data Science",
         "Machine Learning",
         "Deep Learning",
-        "Natural Language Processing",
+        "Natural Language Processing (NLP)",
         "Computer Vision",
-        "Large Language Models",
+        "Large Language Models (LLMs)",
         "Generative AI",
         "Agentic AI",
-        "Graph ML",
+        "RAG",
+        "Graph RAG",
+        "LLM Agents",
+        "LLM Orchestration",
+        "MultiModal AI"
       ],
     },
     {
@@ -24,12 +28,16 @@ const Skills = () => {
     {
       title: "AI/ML Frameworks",
       skills: [
-        "PyTorch",
-        "TensorFlow",
-        "TensorRT",
+        "Google ADK",
+        "A2A Protocol",
+        "Model Context Protocol (MCP)",
         "LangGraph",
         "LangChain",
         "LlamaIndex",
+        "Vector Databases",
+        "PyTorch",
+        "TensorFlow",
+        "TensorRT",
         "AutoGen",
         "Phi Data",
         "Hugging Face Transformers",
@@ -40,7 +48,7 @@ const Skills = () => {
     },
     {
       title: "Big Data & Databases",
-      skills: ["Hadoop Spark", "Apache Kafka", "MySQL", "PostgreSQL", "BigQuery", "GCS", "Neo4j", "Redis", "Elasticsearch"],
+      skills: ["Airflow", "Hadoop Spark", "Apache Kafka", "MySQL", "PostgreSQL", "BigQuery", "GCS", "Neo4j", "Redis", "Elasticsearch"],
     },
     {
       title: "Cloud & MLOps",
@@ -53,9 +61,10 @@ const Skills = () => {
         "Git",
         "Flask",
         "FastAPI",
+        "Jenkins",
         "MLFlow",
-        "Galileo",
-        "Nvidia Deepstream",
+        "Langfuse",
+        "Galileo"
       ],
     },
   ];
